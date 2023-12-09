@@ -35,8 +35,8 @@ languages:
                 - name: Tags
                   url: tags/
                   weight: 10
-                # - name: WiKi
-                #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+                - name: Home
+                  url: https://www.aaronnotes.com
                 # - name: Discord
                 #   url: https://discord.gg/ahpmTvhVmp
 
