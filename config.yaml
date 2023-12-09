@@ -1,4 +1,4 @@
-baseURL: "https://aaronnotes.com/leetnotes/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://www.aaronnotes.com/leetnotes/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: LeetNotes
 paginate: 5
 theme: PaperMod
@@ -104,7 +104,7 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    description: "LeetNotes - https://aaronnotes.com/leetnotes"
     author: aaron
     # author: ["Me", "You"] # multiple authors
 
@@ -169,9 +169,9 @@ params:
     #     favicon32x32: "<link / abs url>"
     #     apple_touch_icon: "<link / abs url>"
     #     safari_pinned_tab: "<link / abs url>"
-        favicon: "https://cdn.jsdelivr.net/gh/lijqhs/cdn@1.5/img/icons/boat.jpg"
-        apple_touch_icon: "https://cdn.jsdelivr.net/gh/lijqhs/cdn@1.5/img/icons/boat.jpg"
-        safari_pinned_tab: "https://cdn.jsdelivr.net/gh/lijqhs/cdn@1.5/img/icons/boat.jpg"
+        favicon: "https://cdn.jsdelivr.net/gh/lijqhs/cdn@1.5/img/icons/light.jpg"
+        apple_touch_icon: "https://cdn.jsdelivr.net/gh/lijqhs/cdn@1.5/img/icons/light.jpg"
+        safari_pinned_tab: "https://cdn.jsdelivr.net/gh/lijqhs/cdn@1.5/img/icons/light.jpg"
 
     # cover:
     #     hidden: true # hide everywhere but not in structured data
@@ -198,7 +198,7 @@ markup:
         # codeFences: true
         # guessSyntax: true
         # lineNos: true
-        # style: monokai
+        style: monokai
 
 privacy:
     vimeo:
